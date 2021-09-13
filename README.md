@@ -13,14 +13,14 @@
 - Your preferred IDE (Eclipse/ Spring Tool Suite/ IntelliJ)
 ## Understanding BookMyDoctor with a few diagrams
 ### class diagram
-![database-schema](src/main/docs/class diagram.png)
+![database-schema]((https://github.com/meet63380/BookMyDoctor/main/docs/class diagram.png)
 
 # [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=main)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
-## Understanding the Spring Petclinic application with a few diagrams
+## Understanding BookMyDoctor with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
 
-## Running petclinic locally
+## Running BookMyDoctor locally
 BookMyDoctor is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
 
 
