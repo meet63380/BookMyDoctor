@@ -13,7 +13,7 @@
 - Your preferred IDE (Eclipse/ Spring Tool Suite/ IntelliJ)
 ## Understanding BookMyDoctor with a few diagrams
 ### class diagram
-![database-schema]<img width=1042 src="https://github.com/meet63380/BookMyDoctor/tree/master/src/main/docs/class_diagram.png">
+<img width=1042 src="https://github.com/meet63380/BookMyDoctor/tree/master/src/main/docs/class_diagram.png">
 
 ## Some Screenshots
 ### Login Screen
