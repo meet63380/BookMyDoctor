@@ -13,7 +13,14 @@
 - Your preferred IDE (Eclipse/ Spring Tool Suite/ IntelliJ)
 ## Understanding BookMyDoctor with a few diagrams
 ### class diagram
-![database-schema](https://github.com/meet63380/BookMyDoctor/src/main/docs/class_diagram.png)
+![database-schema](https://github.com/meet63380/BookMyDoctor/tree/master/src/main/docs/class_diagram.png)
+
+## Some Screenshots
+### Login Screen
+![login-screen](https://github.com/meet63380/BookMyDoctor/tree/master/src/main/docs/login.png)
+
+### Doctors
+![doctors](https://github.com/meet63380/BookMyDoctor/tree/master/src/main/docs/doctors.png)
 
 # [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=main)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
