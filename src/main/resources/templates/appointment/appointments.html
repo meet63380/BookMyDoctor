@@ -22,7 +22,6 @@
                 <tr>
                     <th>#</th>
                     <th>Date</th>
-                    <th>Type</th>
                     <th sec:authorize="hasRole('ROLE_DOCTOR')">Patient</th>
                     <th sec:authorize="hasRole('ROLE_PATIENT')">Doctor</th>
                     <th></th>
@@ -34,7 +33,6 @@
                     <td th:if="${param.page == null}" th:text="${iter.index + 1}">index</td>
 
                     <td th:text="*{#dates.format(date, 'dd-MMM-yyyy HH:mm')}">date</td>
-                    <td th:text="*{type}">type</td>
                     <td sec:authorize="hasRole('ROLE_DOCTOR')"
                         th:text="*{patientBasicViewModel.firstName} + ' ' + *{patientBasicViewModel.lastName}">patient</td>
                     <td sec:authorize="hasRole('ROLE_PATIENT')"
