@@ -7,7 +7,7 @@ jobs:
     
     strategy:
       matrix:
-        os: [windows-latest, ubuntu-latest, macos-latest]
+        os: [windows-latest]
         java: [16]
 
     runs-on: ${{ matrix.os }}
