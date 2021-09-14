@@ -3,7 +3,6 @@
 [![Git Inspector](https://github.com/meet63380/BookMyDoctor/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/meet63380/BookMyDoctor/actions/workflows/gitinspector.yml)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/50d6890e21f743e2b4736ea36e102310)](https://www.codacy.com/gh/meet63380/BookMyDoctor/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=meet63380/BookMyDoctor&amp;utm_campaign=Badge_Grade)
 [![Maven Publish](https://github.com/meet63380/BookMyDoctor/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/meet63380/BookMyDoctor/actions/workflows/maven-publish.yml)
-[![Maven](https://github.com/meet63380/BookMyDoctor/actions/workflows/maven.yml/badge.svg)](https://github.com/meet63380/BookMyDoctor/actions/workflows/maven.yml)
 
 ## Getting started
 ### Prerequisites:
@@ -22,10 +21,17 @@
 ### Doctors
 ![doctors](https://github.com/meet63380/BookMyDoctor/tree/master/src/main/docs/doctors.png)
 
-# [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=main)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
-## Understanding BookMyDoctor with a few diagrams
-<a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
+### Doctor's schedule
+![doctor's schedule](https://github.com/meet63380/BookMyDoctor/tree/master/src/main/docs/doctor_schedule.png)
+
+
+### Appointments
+![appointments](https://github.com/meet63380/BookMyDoctor/tree/master/src/main/docs/my_appointments.png)
+
+
+### Edit profile
+![edit-profile](https://github.com/meet63380/BookMyDoctor/tree/master/src/main/docs/edit_profile.png)
 
 ## Running BookMyDoctor locally
 BookMyDoctor is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
@@ -39,8 +45,6 @@ java -jar target/*.jar
 ```
 
 You can then access BookMyDoctor here: http://localhost:8081/
-
-<img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
 
 Or you can run it from Maven directly using the Spring Boot Maven plugin. If you do this it will pick up changes that you make in the project immediately (changes to Java source files require a compile as well - most people use an IDE for this):
 
